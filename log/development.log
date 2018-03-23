@@ -2163,3 +2163,12 @@ Processing by Devise::RegistrationsController#new as HTML
 Completed 200 OK in 471ms (Views: 426.7ms | ActiveRecord: 1.2ms)
 
 
+Started GET "/users/sign_up" for 127.0.0.1 at 2018-03-23 09:17:45 +0900
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering vendor/bundle/ruby/2.5.0/gems/devise-4.4.3/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered vendor/bundle/ruby/2.5.0/gems/devise-4.4.3/app/views/devise/shared/_links.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.5.0/gems/devise-4.4.3/app/views/devise/registrations/new.html.erb within layouts/application (59.5ms)
+Completed 200 OK in 500ms (Views: 461.0ms | ActiveRecord: 0.7ms)
+
+
